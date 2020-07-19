@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="style.css" rel="stylesheet" />
+    <title>forma</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="block-all">
+      <div class="block-content-form">
+        <div class="cross"></div>
+
+        <h1>Member Sign In</h1>
+
+        <div class="transaction-method">
+          <a class="member" href="#">Not a member yet?</a>
+          <a class="Sign" href="#">Sign up now</a>
+        </div>
+
+        <form action = "forma.html"> 
+          <div class="Username">
+            <i class="icon"><img src="user.png" /></i>
+            <input class="login" type="text" name="login" placeholder="Username / Email" />
+          </div>
+
+          <div class="Password">
+            <i class="icon"><img src="password.png" /></i>
+            <input id="pas" type="Password" name="password" placeholder="Password" />
+            <a href="#"class="password-control"onclick="return show_hide_password(this);"></a>
+          </div>
+
+          <button>Sign In</button>
+
+          <input type="checkbox" id="checkbox-id" />
+          <label for="checkbox-id">Remember me</label>
+        </form>
+      </div>
+    </div>
+
+    <script src="javaScript.js"></script>
+  </body>
+</html>
